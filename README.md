@@ -43,6 +43,5 @@ A simple **Spring (without Spring Boot)** application for booking **flight and t
 EagerBean created.
 Booking flight ticket: Ticket{id=1, passenger='Mereke', transport='Flight', destination='Astana', price=60000.0}
 Booking train ticket: Ticket{id=2, passenger='Makpal', transport='Train', destination='Shymkent', price=10000.0}
-All booked tickets: [Ticket{id=1, passenger='Mereke', transport='Flight', destination='Astana', price=60000.0}, Ticket{id=2, passenger='Makpal', transport='Train', destination='Shymkent', price=10000.0}]
 LazyBean created.
 ```
