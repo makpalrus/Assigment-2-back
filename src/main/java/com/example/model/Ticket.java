@@ -23,7 +23,7 @@ public class Ticket {
 
     @Override
     public String toString() {
-        return "Ticket{id=" + id + ", passenger='" + passengerName + "', transport='" + transportType +
+        return "Ticket{id=" + id + ", passenger=" + passengerName + ", transport='" + transportType +
                 "', destination='" + destination + "', price=" + price + "}";
     }
 }

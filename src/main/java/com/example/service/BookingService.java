@@ -4,5 +4,4 @@ import com.example.model.Ticket;
 
 public interface BookingService {
      void bookTicket(Ticket ticket);
-
 }

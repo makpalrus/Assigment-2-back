@@ -19,8 +19,6 @@ public class Main {
         BookingService trainService = context.getBean("trainBookingService", BookingService.class);
         trainService.bookTicket(new Ticket(2, "Makpal", "Train", "Shymkent", 10000.0));
 
-        System.out.println("All booked tickets: " + context.getBean(com.example.repository.TicketRepository.class).getAllTickets());
-
         context.getBean(LazyBean.class);
 
         context.close();
